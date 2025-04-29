@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Pixel">
+      <UniqueIdentifier>{a3c21d74-5404-44f5-b740-dd068d597150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pixel\Base Types">
+      <UniqueIdentifier>{403278f2-f4fd-42ff-9fe4-0f1fee09ed6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pixel\Types">
+      <UniqueIdentifier>{6345d83a-3fde-4777-97af-c9256bf9e1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pixel">
+      <UniqueIdentifier>{1381e676-1654-499c-ad49-39e0d94d13c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pixel\Base Types">
+      <UniqueIdentifier>{f78da9f5-4365-404a-acc7-02e902cb5c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pixel\Types">
+      <UniqueIdentifier>{3c7aff32-f24a-4db5-aa8f-31cea08bc307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pixel\Map">
+      <UniqueIdentifier>{a8540106-3a74-4469-be4d-846ba037cae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pixel\Map">
+      <UniqueIdentifier>{38c7e0fb-d714-4bb6-920c-7ef32b7a256c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gas.cpp">
+      <Filter>Source Files\Pixel\Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\immovable_solid.cpp">
+      <Filter>Source Files\Pixel\Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\liquid.cpp">
+      <Filter>Source Files\Pixel\Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\movable_solid.cpp">
+      <Filter>Source Files\Pixel\Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solid.cpp">
+      <Filter>Source Files\Pixel\Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pixel_map.cpp">
+      <Filter>Source Files\Pixel\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pixel.cpp">
+      <Filter>Source Files\Pixel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pixel_types.cpp">
+      <Filter>Source Files\Pixel\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gas.h">
+      <Filter>Header Files\Pixel\Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\solid.h">
+      <Filter>Header Files\Pixel\Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\liquid.h">
+      <Filter>Header Files\Pixel\Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\movable_solid.h">
+      <Filter>Header Files\Pixel\Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\immovable_solid.h">
+      <Filter>Header Files\Pixel\Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pixel_map.h">
+      <Filter>Header Files\Pixel\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pixel.h">
+      <Filter>Header Files\Pixel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pixel_types.h">
+      <Filter>Header Files\Pixel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pixel_base_types.h">
+      <Filter>Header Files\Pixel\Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\map_cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
